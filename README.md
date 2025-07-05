@@ -1,54 +1,77 @@
-# React + TypeScript + Vite
+# Zaph Tours 🌍✈️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Zaph Tours** is a modern travel and tours website built with React and Material UI. The platform showcases top destinations, unique trip types, and travel experiences across Kenya — designed with elegance and responsiveness in mind.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 [Visit the Live Site on Vercel]((https://zaph-tours-umber.vercel.app/))
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+zaph-tours/
+├── public/
+│ └── assets/ # Images used for destinations, trips, etc.
+├── src/
+│ ├── components/ # Navbar, Footer, HeroSection, etc.
+│ ├── pages/ # Home, About, Destinations, TripTypes, Contact
+│ ├── App.tsx # Main app routing
+│ └── index.tsx # Entry point
+└── README.md
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Tech Stack
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+- **React** + **Vite**
+- **Material UI (MUI)** for elegant components
+- **React Router DOM** for client-side navigation
+- **TypeScript** for type safety
+- **Vercel** for deployment
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    "react-x": reactX,
-    "react-dom": reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs["recommended-typescript"].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
-```
+## 🔗 Features
+
+- ✅ Fully responsive design
+- ✅ Elegant navbar with smooth scroll and routing
+- ✅ Destinations and trip types with image galleries
+- ✅ Contact form and newsletter section
+- ✅ Clean, minimal, travel-themed aesthetic
+
+## 🧭 Pages
+
+| Page | Description |
+|------|-------------|
+| **Home** | Landing page with hero, about, featured destinations, and testimonials |
+| **Destinations** | Explore detailed destination cards with pricing |
+| **Trip Types** | Horizontal image carousels for adventure types |
+| **Contact** | Get in touch via contact form |
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/FaizaSuraw/zaph-tours.git
+cd zaph-tours
+npm install
+npm run dev
+
+🔄 Deployment
+This project is deployed using Vercel. Push changes to your GitHub repo and Vercel auto-deploys your updates.
+
+🔗 https://vercel.com
+
+📸 Screenshots
+![image](https://github.com/user-attachments/assets/58d7cf35-56b9-47f4-a5fa-b27baac50772)
+![image](https://github.com/user-attachments/assets/1f88c989-2adf-430a-9feb-e1c1e3cd9c4a)
+![image](https://github.com/user-attachments/assets/9d425bcf-aa29-4186-838f-0f7a26600c15)
+![image](https://github.com/user-attachments/assets/27518e38-44e9-4262-996c-e1fff3f45344)
+
+
+
+
+📄 License
+This project is open-source under the MIT License.
+
+
+
+Designed and built with love 💙 by Faiza Suraw.
+
+
+
