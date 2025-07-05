@@ -1,4 +1,6 @@
 # Zaph Tours 🌍✈️
+![image](https://github.com/user-attachments/assets/a3f5b651-3d8f-4ccc-a16a-5ed0507dcf45)
+
 
 **Zaph Tours** is a modern travel and tours website built with React and Material UI. The platform showcases top destinations, unique trip types, and travel experiences across Kenya — designed with elegance and responsiveness in mind.
 
