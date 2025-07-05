@@ -60,10 +60,10 @@ This project is deployed using Vercel. Push changes to your GitHub repo and Verc
 🔗 https://vercel.com
 
 📸 Screenshots
-![image](https://github.com/user-attachments/assets/58d7cf35-56b9-47f4-a5fa-b27baac50772)
-![image](https://github.com/user-attachments/assets/1f88c989-2adf-430a-9feb-e1c1e3cd9c4a)
-![image](https://github.com/user-attachments/assets/9d425bcf-aa29-4186-838f-0f7a26600c15)
-![image](https://github.com/user-attachments/assets/27518e38-44e9-4262-996c-e1fff3f45344)
+![image](https://github.com/user-attachments/assets/4a4bbbc1-c3c0-4fd5-aaee-5237273058f8)
+![image](https://github.com/user-attachments/assets/23328538-c8da-4227-a5f0-9bd0185df66d)
+
+
 
 
 
