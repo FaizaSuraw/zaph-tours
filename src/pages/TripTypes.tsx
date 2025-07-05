@@ -6,7 +6,6 @@ import {
   Stack,
   Card,
 } from '@mui/material';
-import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -71,7 +70,6 @@ const tripTypes = [
 const TripTypes = () => {
   return (
     <>
-      <Header />
       <Navbar />
       <Box sx={{ py: 10, backgroundColor: '#f7f7f7' }}>
         <Container>

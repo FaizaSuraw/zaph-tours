@@ -5,7 +5,7 @@ import {
   Button,
   Stack,
 } from '@mui/material';
-import Header from '../components/Header';
+
 import Navbar from '../components/Navbar';
 
 const destinations = [
@@ -70,7 +70,7 @@ const destinations = [
 const Destinations = () => {
   return (
     <>
-      <Header />
+      
       <Navbar />
       <Box sx={{ py: 10, backgroundColor: '#fff' }}>
         <Container maxWidth="lg">
